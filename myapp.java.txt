@@ -18,9 +18,11 @@ public class main {
 		this.price = price;
 		this.amount = amount;
 	}
+	
 	public double countValue() {
 		return(amount * price);
 	}
+	
 	public void changeBalance(int newValue) {
 		this.amount = newValue;
 	}
